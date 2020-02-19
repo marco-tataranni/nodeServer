@@ -1,0 +1,63 @@
+extends layout
+
+block content
+
+ 
+        h2 Inserisci i dati della nuova unità
+        form(method='POST' action='/')
+            label(for='Unit') Unit
+            input(type='text', placeholder='Goblins' name='Unit' required)
+            br
+            br
+
+            label(for='Cost') Cost
+            input(type='text', placeholder='4' name='Cost' required)
+            br
+            br
+
+            label(for='Hit_Speed') Hit speed:
+            input(type='text', placeholder='1.2 sec' name='Hit_Speed' required)
+            br
+            br
+  
+            label(for='Speed') Speed: 
+            input(type='text', placeholder='Low, Medium, High (1-100)' name='Speed' required)
+            br
+            br
+
+            label(for='Deploy_Time') Deploy time:
+            input(type='text', placeholder='2 sec' name='Deploy_Time' required)
+            br
+            br
+ 
+            label(for='Range') Range:
+            input(type='text', placeholder='5' name='Range' required)
+            br
+            br
+ 
+            label(for='Target') Target:
+            input(type='text', placeholder='Air, Ground, Air & Ground' name='Target' required)
+            br
+            br
+ 
+            label(for='Count') Count: 
+            input(type='text', placeholder='x1' name='Count' required)
+            br
+            br
+ 
+            label(for='Transport') Transport:
+            input(type='text', placeholder='Ground, Air, Ground & Air' name='Transport' required)
+            br
+            br
+
+            label(for='Type') Type:
+            input(type='text', placeholder='Troop, Potion' name='Type' required)
+            br
+            br
+ 
+            label(for='Rarity') Rarity: 
+            input(type='text', placeholder='Common, Rare, Epic, Legendary' name='Rarity' required)
+            br
+            br
+
+            button.invia(type='submit') Invia

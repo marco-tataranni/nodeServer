@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1 CLASH ROYAL
+  each unita in ris
+                
+                div.unita
+                    img(src=`/images/${unita.Unit}.png`)
+                    br
+                    h2
+                        a(href=`search/${unita.Unit}`) #{unita.Unit.toUpperCase()}

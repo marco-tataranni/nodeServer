@@ -1,0 +1,31 @@
+extends layout
+
+block content
+
+    h1 #{ris[0].Unit.toUpperCase()}
+    
+        
+    img(src=`/images/${ris[0].Unit}.png` width='300px')
+        
+    h4 Cost: #{ris[0].Cost}
+
+    h4 Hit Speed: #{ris[0].Hit_Speed}
+
+    h4 Speed: #{ris[0].Speed}
+            
+
+    h4 Deploy Time: #{ris[0].Deploy_Time}
+
+    h4 Range: #{ris[0].Range}
+
+    h4 Target: #{ris[0].Target}
+
+    h4 Count: #{ris[0].Count}
+
+    h4 Transport: #{ris[0].Transport}
+
+    h4 Type: #{ris[0].Type}
+
+    h4 Rarity: #{ris[0].Rarity}
+
+           
