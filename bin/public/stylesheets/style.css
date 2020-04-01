@@ -1,0 +1,48 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: white
+}
+
+a {
+  color: #00B7FF;
+}
+.unita {
+    height: 225px;
+    border-radius: 15px;
+    padding: 25px 10px;
+    box-shadow:
+    -12px -12px 12px 0 rgba(77, 77, 77, 0.5),
+    12px 12px 12px 0 rgba(20, 20, 20, 0.5);
+    text-align: center;
+}
+
+.unita > img {
+    width: 125px;
+    height: auto;
+}
+
+
+input {
+    padding: 5px;
+    width: 300px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 1px;
+    width: 100px;
+    height: 35px;
+}
+
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
